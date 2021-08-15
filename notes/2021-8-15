@@ -1,0 +1,6 @@
+insert n ints into list is ~10x slower first request after app starts
+ - generating random numbers?
+ - memory for list already allocated on subsequent runs?
+ - some spring related thing?
+
+need to get jfr set up and profile 1st vs second request to compare
